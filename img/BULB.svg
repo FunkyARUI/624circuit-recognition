@@ -1,0 +1,19 @@
+<svg width="150" height="60" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="62" width="152" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_21" d="m-360.682498,35.322499l0,0c0,-0.276143 0.223859,-0.500001 0.500003,-0.500001l0,0c0.132609,0 0.259787,0.052678 0.353556,0.146447c0.093769,0.093768 0.146448,0.220945 0.146448,0.353554l0,0c0,0.276143 -0.223859,0.500001 -0.500003,0.500001l0,0c-0.276144,0 -0.500003,-0.223858 -0.500003,-0.500001zm0.250002,0l0,0c0,0.138071 0.11193,0.25 0.250002,0.25c0.138072,0 0.250002,-0.111929 0.250002,-0.25c0,-0.138071 -0.11193,-0.25 -0.250002,-0.25l0,0c-0.138072,0 -0.250002,0.111929 -0.250002,0.25z" fill-opacity="null" stroke-width="0" stroke="#ffffff" fill="#fff"/>
+  <ellipse stroke="#ffffff" ry="27.5" rx="28" id="svg_35" cy="31" cx="77.5" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_36" y2="50.5" x2="95.5" y1="12.5" x1="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#ffffff" fill="none"/>
+  <line stroke="#ffffff" stroke-linecap="null" stroke-linejoin="null" id="svg_37" y2="13.500001" x2="97.500002" y1="52.5" x1="61.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_38" y2="32.5" x2="146.5" y1="32.5" x1="106.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#ffffff" fill="none"/>
+  <line stroke="#ffffff" stroke-linecap="null" stroke-linejoin="null" id="svg_39" y2="33.5" x2="8.499998" y1="33.5" x1="48.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" fill="none"/>
+ </g>
+</svg>

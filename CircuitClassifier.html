@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Circuit Classifier</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="canvas.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript" src="algorithm.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript" src="pic.js"></script>
+</head>
+
+<body onload="load()">
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li> <a onclick="submit()">Submit</a></li>
+	        <li> <a onclick="clearAll()">Clear</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div id="Content">
+
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-7">
+			<canvas id="myCanvas" width="800" height="400" margin="0 auto" style="background-color:#0000ff"
+				onmousedown="down(event.clientX, event.clientY, event.button)"
+				onmousemove="move(event.clientX, event.clientY, event.button)"
+				onmouseup="up(event.clientX, event.clientY, event.button)"
+				oncontextmenu="return false;">
+			<span style="background-color:#ffff88;">The &lt;canvas&gt; element is not supported by thisbrowser.</span>
+			</canvas>
+			<div class="row">
+				<form>
+				R: <input type="text" name="R" id="R"><br>
+				V: <input type="text" name="V" id="V"><br>
+				I: <input type="text" name="R" id="I"><br>
+				Number Of Shining Bulb: <input type="text" name="numOfLightedBulb" id="numOfLightedBulb"><br>
+			</form>
+			</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+ 				<form role="form">
+ 				   <div class="form-group">
+ 				     <label for="comment">Feedback:</label>
+ 				     <textarea class="form-control" rows="1" id="feedback" value=""></textarea>
+ 				 </br>
+ 				   </div>
+ 				</form>
+			</div>
+			<div class="col-sm-2"></div>
+
+	</div>
+
+	<div style="display:none;">
+		<img id="RESSVG" src="img/RES.svg">
+		<img id="BULBSVG" src="img/BULB.svg">
+		<img id="CAPSVG" src="img/CAP.svg">
+		<img id="BATSVG" src="img/BAT.svg">
+		<img id="FUSESVG" src="img/fuse.svg">
+	</div>
+</body>
+</html>
